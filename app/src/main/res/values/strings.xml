@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mini FB App</string>
+    <string name="login_activity_text">Login Activity</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="dnt_have_an_acc_text">You don\'t have an account? Sign up now!</string>
+    <string name="home_text">Home Activity</string>
+    <string name="sign_up_activity_text">Sign Up Activity</string>
+    <string name="name_text">Name</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="already_have_an_acc_text">Already have an account? Log in!</string>
+    <string name="post_details_text">Post Details</string>
+    <string name="add_new_post_text">New Post</string>
+    <string name="logout_text">Logout</string>
+    <string name="what_is_in_ur_mind_text">What is in your mind?</string>
+    <string name="post_text">Post</string>
+    <string name="empty_post_body">Empty body</string>
+    <string name="smthing_went_wrong">Something Went Wrong</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="invalid_name">Invalid Name</string>
+</resources>

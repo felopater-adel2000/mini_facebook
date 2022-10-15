@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddPostActivity">
+
+
+    <EditText
+        android:id="@+id/et_post_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_24dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:layout_marginEnd="@dimen/dimen_24dp"
+        android:background="@drawable/white_rectangular_shape"
+        android:gravity="top|start"
+        android:hint="@string/what_is_in_ur_mind_text"
+        android:inputType="textMultiLine"
+        android:minHeight="@dimen/dimen_180dp"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingEnd="@dimen/dimen_12dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/dimen_18sp" />
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginEnd="@dimen/dimen_25dp"
+        android:background="@drawable/orange_rectangular_shape"
+        android:text="@string/post_text"
+        android:textColor="@color/colorWhite" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_20dp" />
+</LinearLayout>
